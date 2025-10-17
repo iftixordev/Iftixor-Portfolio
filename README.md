@@ -1,199 +1,201 @@
-# 🚀 Iftixor's Portfolio - Backend Developer
+# 🚀 Iftixor Portfolio - Backend Developer
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=435&lines=Backend+Developer;PHP+%7C+Node.js+%7C+Python;API+%7C+Database+%7C+DevOps;Always+learning+new+things" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=435&lines=Backend+Developer;PHP+%7C+MySQL+%7C+API;Portfolio+Website;O'zbek+Dasturchi" alt="Typing SVG" />
 </div>
 
-## 🌟 About This Project
+## 🌟 Loyiha haqida
 
-Modern portfolio website showcasing backend development skills with cutting-edge technologies. Built with PHP backend and modern frontend frameworks.
+Bu zamonaviy backend developer uchun portfolio websayti. PHP da yozilgan, serverga yuklash bilan darhol ishlay boshlaydi. Responsive dizayn va zamonaviy UI/UX bilan.
 
-## 🛠️ Tech Stack
+## 🛠️ Texnologiyalar
 
 ### Backend
-- **PHP 8.2+** - Core backend language
-- **MySQL/PostgreSQL** - Database management
-- **Redis** - Caching and session management
-- **RESTful APIs** - Clean API architecture
-- **JWT Authentication** - Secure user authentication
+- **PHP 7.4+** - Asosiy backend til
+- **JSON** - Ma'lumotlar saqlash
+- **Apache/Nginx** - Web server
 
 ### Frontend
-- **React.js** - Modern UI library
-- **TypeScript** - Type-safe JavaScript
-- **Tailwind CSS** - Utility-first CSS framework
-- **Vite** - Fast build tool
-- **Framer Motion** - Smooth animations
+- **HTML5** - Markup
+- **TailwindCSS** - CSS framework
+- **JavaScript** - Interaktivlik
+- **Font Awesome** - Ikonlar
 
-### DevOps & Tools
-- **Docker** - Containerization
-- **Nginx** - Web server
-- **Git** - Version control
-- **Composer** - PHP dependency management
-- **npm/yarn** - Frontend package management
+## 🚀 Xususiyatlar
 
-## 🚀 Features
+- ✨ **Zamonaviy Dizayn** - Chiroyli va responsive UI
+- 📱 **Mobile First** - Barcha qurilmalarda ishlaydi
+- ⚡ **Tez Yuklash** - Optimallashtirilgan kod
+- 🎨 **Smooth Animatsiyalar** - Interaktiv tajriba
+- 📧 **Aloqa Formasi** - To'g'ridan-to'g'ri xabar yuborish
+- 🌐 **SEO Optimized** - Qidiruv tizimlariga moslashtirilgan
+- 🔒 **Xavfsizlik** - Asosiy himoya choralari
 
-- ✨ **Modern Design** - Clean and responsive UI
-- 🔐 **Secure Backend** - JWT authentication and validation
-- 📱 **Mobile First** - Responsive design for all devices
-- ⚡ **Fast Performance** - Optimized loading and caching
-- 🎨 **Smooth Animations** - Interactive user experience
-- 📊 **Admin Dashboard** - Content management system
-- 🌐 **Multi-language** - Uzbek and English support
-- 📧 **Contact Form** - Direct messaging system
-
-## 📁 Project Structure
+## 📁 Loyiha Strukturasi
 
 ```
 Iftixor_blog/
-├── backend/
-│   ├── api/
-│   │   ├── auth/
-│   │   ├── projects/
-│   │   ├── contact/
-│   │   └── admin/
-│   ├── config/
-│   ├── models/
-│   ├── middleware/
-│   └── utils/
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── hooks/
-│   │   ├── utils/
-│   │   └── styles/
-│   ├── public/
-│   └── dist/
-├── database/
-│   ├── migrations/
-│   └── seeds/
-├── docker/
-└── docs/
+├── index.php              # Asosiy fayl
+├── pages/                 # Sahifalar
+│   ├── home.php          # Bosh sahifa
+│   ├── about.php         # Men haqimda
+│   ├── projects.php      # Loyihalar
+│   ├── blog.php          # Blog
+│   └── contact.php       # Aloqa
+├── assets/               # Statik fayllar
+│   ├── css/
+│   ├── js/
+│   └── images/
+├── data/                 # Ma'lumotlar
+│   └── contacts.json     # Aloqa ma'lumotlari
+├── .htaccess            # Apache konfiguratsiya
+└── README.md            # Loyiha haqida
 ```
 
-## 🔧 Installation
+## 🔧 O'rnatish
 
-### Prerequisites
-- PHP 8.2+
-- Node.js 18+
-- MySQL/PostgreSQL
-- Composer
-- Docker (optional)
+### Talablar
+- PHP 7.4 yoki yuqori
+- Apache/Nginx web server
+- mod_rewrite yoqilgan bo'lishi
 
-### Backend Setup
+### Oddiy o'rnatish
 ```bash
-# Clone repository
+# Loyihani yuklab oling
 git clone https://github.com/iftixor/portfolio.git
 cd Iftixor_blog
 
-# Install PHP dependencies
-composer install
+# Web serverga joylashtiring
+# Apache uchun: /var/www/html/
+# Nginx uchun: /usr/share/nginx/html/
 
-# Setup environment
-cp .env.example .env
-# Configure database and other settings
+# Ruxsatlarni sozlang
+chmod 755 -R .
+chmod 777 data/
 
-# Run migrations
-php artisan migrate --seed
+# Brauzerda oching
+# http://localhost/Iftixor_blog
 ```
 
-### Frontend Setup
+### cPanel orqali
+1. Fayllarni zip qilib yuklab oling
+2. cPanel File Manager orqali public_html ga joylashtiring
+3. Zip faylni ochib oling
+4. data/ papkasiga yozish ruxsatini bering (755)
+
+## 🌐 Sahifalar
+
+### Bosh sahifa (/)
+- Hero section
+- Texnik ko'nikmalar
+- So'nggi loyihalar
+
+### Men haqimda (/about)
+- Shaxsiy ma'lumotlar
+- Ish tajribasi
+- Mutaxassislik sohalari
+
+### Loyihalar (/projects)
+- Barcha loyihalar
+- Texnologiyalar bo'yicha filter
+- GitHub va demo havolalar
+
+### Blog (/blog)
+- Texnik maqolalar
+- Backend development maslahatlari
+- Newsletter obunasi
+
+### Aloqa (/contact)
+- Aloqa formasi
+- Ijtimoiy tarmoq havolalari
+- FAQ bo'limi
+
+## 📊 Xususiyatlar
+
+- **Responsive Design**: Barcha qurilmalarda mukammal ko'rinish
+- **Fast Loading**: Optimallashtirilgan kod va resurslar
+- **SEO Friendly**: Qidiruv tizimlariga moslashtirilgan
+- **Contact Form**: Xabarlar JSON faylga saqlanadi
+- **Security**: Asosiy himoya choralari qo'llanilgan
+
+## 🎨 Sozlash
+
+### Shaxsiy ma'lumotlarni o'zgartirish
+1. `pages/home.php` - Bosh sahifadagi ma'lumotlar
+2. `pages/about.php` - Shaxsiy va professional ma'lumotlar
+3. `pages/projects.php` - Loyihalar ro'yxati
+4. `index.php` - Asosiy navigatsiya
+
+### Dizaynni sozlash
+- TailwindCSS klasslarini o'zgartiring
+- `assets/css/` papkasiga qo'shimcha CSS qo'shing
+- Font Awesome ikonlarini almashtiring
+
+### Aloqa ma'lumotlari
+`pages/contact.php` faylida:
+- Email manzil
+- Telefon raqam
+- Ijtimoiy tarmoq havolalari
+
+## 🚀 Hosting
+
+### Shared Hosting
+1. Barcha fayllarni public_html ga yuklang
+2. data/ papkasiga yozish ruxsati bering
+3. .htaccess fayli mavjudligini tekshiring
+
+### VPS/Dedicated Server
 ```bash
-# Navigate to frontend
-cd frontend
+# Apache uchun
+sudo cp -r Iftixor_blog /var/www/html/
+sudo chown -R www-data:www-data /var/www/html/Iftixor_blog
+sudo chmod 755 -R /var/www/html/Iftixor_blog
+sudo chmod 777 /var/www/html/Iftixor_blog/data
 
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
+# Nginx uchun
+sudo cp -r Iftixor_blog /usr/share/nginx/html/
+sudo chown -R nginx:nginx /usr/share/nginx/html/Iftixor_blog
 ```
 
-### Docker Setup (Recommended)
-```bash
-# Build and start containers
-docker-compose up -d
+## 📱 Mobile Optimization
 
-# Access application
-# Frontend: http://localhost:3000
-# Backend API: http://localhost:8000
-```
+- Responsive grid system
+- Touch-friendly navigation
+- Optimized images
+- Fast loading on mobile networks
 
-## 🌐 API Endpoints
+## 🔒 Xavfsizlik
 
-### Authentication
-- `POST /api/auth/login` - User login
-- `POST /api/auth/register` - User registration
-- `POST /api/auth/refresh` - Refresh token
+- XSS himoyasi
+- CSRF himoyasi
+- File upload xavfsizligi
+- Input validation
+- SQL injection himoyasi (agar DB ishlatilsa)
 
-### Projects
-- `GET /api/projects` - Get all projects
-- `GET /api/projects/{id}` - Get project details
-- `POST /api/projects` - Create project (Admin)
-- `PUT /api/projects/{id}` - Update project (Admin)
+## 🤝 Hissa qo'shish
 
-### Contact
-- `POST /api/contact` - Send message
-- `GET /api/contact` - Get messages (Admin)
+1. Loyihani fork qiling
+2. Feature branch yarating (`git checkout -b feature/yangi-xususiyat`)
+3. O'zgarishlarni commit qiling (`git commit -m 'Yangi xususiyat qo'shildi'`)
+4. Branch ga push qiling (`git push origin feature/yangi-xususiyat`)
+5. Pull Request oching
 
-## 🎨 Screenshots
+## 📝 Litsenziya
 
-<div align="center">
-  <img src="docs/screenshots/home.png" alt="Home Page" width="45%" />
-  <img src="docs/screenshots/projects.png" alt="Projects Page" width="45%" />
-</div>
+Bu loyiha MIT litsenziyasi ostida. Batafsil ma'lumot uchun [LICENSE](LICENSE) faylini ko'ring.
 
-## 🚀 Deployment
-
-### Production Build
-```bash
-# Frontend build
-cd frontend
-npm run build
-
-# Backend optimization
-composer install --optimize-autoloader --no-dev
-```
-
-### Server Configuration
-- **Web Server**: Nginx/Apache
-- **PHP**: PHP-FPM 8.2+
-- **Database**: MySQL 8.0+ / PostgreSQL 13+
-- **Cache**: Redis 6.0+
-
-## 📊 Performance
-
-- **Lighthouse Score**: 95+
-- **Page Load Time**: < 2s
-- **API Response Time**: < 200ms
-- **Mobile Friendly**: ✅
-- **SEO Optimized**: ✅
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📞 Contact
+## 📞 Aloqa
 
 **Iftixor** - Backend Developer
 
 - 📧 Email: iftixor@example.com
 - 💼 LinkedIn: [linkedin.com/in/iftixor](https://linkedin.com/in/iftixor)
 - 🐙 GitHub: [github.com/iftixor](https://github.com/iftixor)
-- 🌐 Portfolio: [iftixor.dev](https://iftixor.dev)
+- 📱 Telegram: [@iftixor](https://t.me/iftixor)
 
 ---
 
 <div align="center">
-  <p>Made with ❤️ by Iftixor</p>
-  <p>⭐ Star this repo if you like it!</p>
-</div># Iftixor-Portfolio
+  <p>❤️ bilan yaratildi - Iftixor tomonidan</p>
+  <p>⭐ Agar loyiha yoqsa, star bosishni unutmang!</p>
+</div>
