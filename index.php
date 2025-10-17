@@ -26,11 +26,11 @@ $page = $_GET['page'] ?? 'home';
                     <span class="text-xl font-bold">Iftixor</span>
                 </div>
                 <div class="hidden md:flex space-x-6">
-                    <a href="?page=home" class="hover:text-blue-400 transition">Bosh sahifa</a>
-                    <a href="?page=about" class="hover:text-blue-400 transition">Men haqimda</a>
-                    <a href="?page=projects" class="hover:text-blue-400 transition">Loyihalar</a>
-                    <a href="?page=blog" class="hover:text-blue-400 transition">Blog</a>
-                    <a href="?page=contact" class="hover:text-blue-400 transition">Aloqa</a>
+                    <a href="/home" class="hover:text-blue-400 transition">Bosh sahifa</a>
+                    <a href="/about" class="hover:text-blue-400 transition">Men haqimda</a>
+                    <a href="/projects" class="hover:text-blue-400 transition">Loyihalar</a>
+                    <a href="/blog" class="hover:text-blue-400 transition">Blog</a>
+                    <a href="/contact" class="hover:text-blue-400 transition">Aloqa</a>
                 </div>
                 <div class="md:hidden">
                     <button id="mobile-menu-btn" class="text-white">

@@ -48,7 +48,7 @@
                     </ul>
                 </div>
 
-                <a href="?page=contact" class="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-lg font-medium transition inline-block">
+                <a href="/contact" class="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-lg font-medium transition inline-block">
                     <i class="fas fa-envelope mr-2"></i>Bog'lanish
                 </a>
             </div>

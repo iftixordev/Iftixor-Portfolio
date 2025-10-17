@@ -1,9 +1,15 @@
 RewriteEngine On
 
-# Remove .php extension
-RewriteCond %{REQUEST_FILENAME} !-d
+# Clean URLs
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^home/?$ index.php?page=home [L]
+RewriteRule ^about/?$ index.php?page=about [L]
+RewriteRule ^projects/?$ index.php?page=projects [L]
+RewriteRule ^blog/?$ index.php?page=blog [L]
+RewriteRule ^blog/([^/]+)/?$ index.php?page=blog&post=$1 [L]
+RewriteRule ^contact/?$ index.php?page=contact [L]
+RewriteRule ^/?$ index.php?page=home [L]
 
 # Security headers
 Header always set X-Content-Type-Options nosniff

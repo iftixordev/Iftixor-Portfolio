@@ -14,10 +14,10 @@
             </p>
             
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="?page=projects" class="bg-blue-500 hover:bg-blue-600 px-8 py-3 rounded-lg font-medium transition">
+                <a href="/projects" class="bg-blue-500 hover:bg-blue-600 px-8 py-3 rounded-lg font-medium transition">
                     <i class="fas fa-code mr-2"></i>Loyihalarim
                 </a>
-                <a href="?page=contact" class="border border-blue-500 text-blue-300 hover:bg-blue-500 hover:text-white px-8 py-3 rounded-lg font-medium transition">
+                <a href="/contact" class="border border-blue-500 text-blue-300 hover:bg-blue-500 hover:text-white px-8 py-3 rounded-lg font-medium transition">
                     <i class="fas fa-envelope mr-2"></i>Bog'lanish
                 </a>
             </div>
@@ -116,7 +116,7 @@
         </div>
 
         <div class="text-center mt-12">
-            <a href="?page=projects" class="bg-blue-500 hover:bg-blue-600 px-8 py-3 rounded-lg font-medium transition">
+            <a href="/projects" class="bg-blue-500 hover:bg-blue-600 px-8 py-3 rounded-lg font-medium transition">
                 Barcha loyihalarni ko'rish
             </a>
         </div>

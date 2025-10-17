@@ -21,7 +21,7 @@
                                 <p class="text-gray-400 text-sm">15 Dekabr, 2024</p>
                             </div>
                         </div>
-                        <a href="?page=blog&post=php-8-3-features" class="text-blue-400 hover:text-blue-300">
+                        <a href="/blog/php-8-3-features" class="text-blue-400 hover:text-blue-300">
                             O'qish <i class="fas fa-arrow-right ml-1"></i>
                         </a>
                     </div>
@@ -92,10 +92,10 @@
                             <span class="text-gray-400 text-sm"><?= $post['date'] ?></span>
                         </div>
                         <h3 class="text-lg font-semibold mb-3 hover:text-blue-400 transition">
-                            <a href="?page=blog&post=<?= $post['slug'] ?>"><?= $post['title'] ?></a>
+                            <a href="/blog/<?= $post['slug'] ?>"><?= $post['title'] ?></a>
                         </h3>
                         <p class="text-gray-400 text-sm mb-4"><?= $post['excerpt'] ?></p>
-                        <a href="?page=blog&post=<?= $post['slug'] ?>" class="text-blue-400 hover:text-blue-300 text-sm">
+                        <a href="/blog/<?= $post['slug'] ?>" class="text-blue-400 hover:text-blue-300 text-sm">
                             Batafsil o'qish <i class="fas fa-arrow-right ml-1"></i>
                         </a>
                     </div>
